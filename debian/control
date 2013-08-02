@@ -24,7 +24,7 @@ Package: bitz-server-dev
 Section: devel
 Architecture: any
 Depends: bitz-server (= ${binary:Version}), ${misc:Depends}
-Description: ICAP server (RFC 3507) implementation in C++
+Description: ICAP server (RFC 3507) implementation in C++ (development)
  bitz-server is an ICAP server implementation in C++. Starting from scratch,
  the server is developed with a modular architecture in mind.
  The server core (written in C++) will handle the client requests,
@@ -49,14 +49,13 @@ Package: libicap0-dev
 Section: libdevel
 Architecture: any
 Depends: libicap0 (= ${binary:Version}), ${misc:Depends}
-Description: C++ library for ICAP communications
+Description: C++ library for ICAP communications (development)
  libicap is a C++ library providing an interface for ICAP (RFC 3507)
  server / client communications.
  .
  This package contains the libicap development files.
 
 Package: libbitz-server-mod-py
-Section: web
 Architecture: any
 Depends: bitz-server (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
 Description: Module for bitz-server implementing a Python interface
@@ -65,7 +64,6 @@ Description: Module for bitz-server implementing a Python interface
  in Python.
 
 Package: libbitz-server-mod-py-modules
-Section: web
 Architecture: any
 Depends: libbitz-server-mod-py (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
 Description: Python extension modules for bitz-server mod_py module
