@@ -1,3 +1,9 @@
+bitz-server (1.0.0-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Uditha Atukorala <udi@geniusse.com>  Sat, 21 Sep 2013 19:35:36 +0100
+
 bitz-server (0.1.5-1) unstable; urgency=low
 
   * New upstream release
