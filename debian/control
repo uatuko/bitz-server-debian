@@ -37,7 +37,7 @@ Description: ICAP server (RFC 3507) implementation in C++ (development)
  .
  This package contains the bitz-server development files.
 
-Package: libicap0
+Package: libicap1
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -45,10 +45,10 @@ Description: C++ library for ICAP communications
  libicap is a C++ library providing an interface for ICAP (RFC 3507)
  server / client communications.
 
-Package: libicap0-dev
+Package: libicap1-dev
 Section: libdevel
 Architecture: any
-Depends: libicap0 (= ${binary:Version}), ${misc:Depends}
+Depends: libicap1 (= ${binary:Version}), ${misc:Depends}
 Description: C++ library for ICAP communications (development)
  libicap is a C++ library providing an interface for ICAP (RFC 3507)
  server / client communications.
