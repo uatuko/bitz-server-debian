@@ -2,7 +2,7 @@ Source: bitz-server
 Section: web
 Priority: extra
 Maintainer: Uditha Atukorala <udi@geniusse.com>
-Build-Depends: debhelper (>= 9), autotools-dev, libpsocksxx-dev, libconfig++-dev, liblog4cpp5-dev, python2.7-dev
+Build-Depends: debhelper (>= 9), autotools-dev, libconfig++-dev, liblog4cpp5-dev, python2.7-dev
 Standards-Version: 3.9.4
 Homepage: https://github.com/uditha-atukorala/bitz-server
 
@@ -37,7 +37,7 @@ Description: ICAP server (RFC 3507) implementation in C++ (development)
  .
  This package contains the bitz-server development files.
 
-Package: libicap1
+Package: libicap0
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -45,10 +45,10 @@ Description: C++ library for ICAP communications
  libicap is a C++ library providing an interface for ICAP (RFC 3507)
  server / client communications.
 
-Package: libicap1-dev
+Package: libicap0-dev
 Section: libdevel
 Architecture: any
-Depends: libicap1 (= ${binary:Version}), ${misc:Depends}
+Depends: libicap0 (= ${binary:Version}), ${misc:Depends}
 Description: C++ library for ICAP communications (development)
  libicap is a C++ library providing an interface for ICAP (RFC 3507)
  server / client communications.
