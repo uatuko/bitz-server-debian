@@ -44,6 +44,8 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: C++ library for ICAP communications
  libicap is a C++ library providing an interface for ICAP (RFC 3507)
  server / client communications.
+ .
+ This package is used by the bitz-server.
 
 Package: libicap0-dev
 Section: libdevel
@@ -58,15 +60,20 @@ Description: C++ library for ICAP communications (development)
 Package: libbitz-server-mod-py
 Architecture: any
 Depends: bitz-server (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Recommends: libbitz-server-mod-py-modules
 Description: Module for bitz-server implementing a Python interface
  Pluggable module for bitz-server to extend core functionality. mod_py
- provides a Python interface so the content adaptation logic can be written
- in Python.
+ provides a Python programming interface so the content adaptation logic
+ can be written in Python.
+ .
+ This package requires a compatible Python module to be useful.
 
 Package: libbitz-server-mod-py-modules
 Architecture: any
 Depends: libbitz-server-mod-py (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
 Description: Python extension modules for bitz-server mod_py module
- This package provides content adaptation logic written in Python for
- the bitz-server mod_py module.
+ Python modules that provides content adaptation logic for a compatible
+ ICAP server implementation to extend the core functionality.
+ .
+ This package can be used with bitz-server mod_py module.
 
