@@ -1,23 +1,5 @@
-bitz-server (0.1.5-1) unstable; urgency=low
+bitz-server (0.1.6-1) unstable; urgency=low
 
-  * New upstream release
+  * Initial Release. (Closes: #715022)
 
- -- Uditha Atukorala <udi@geniusse.com>  Mon, 26 Aug 2013 13:23:06 +0100
-
-bitz-server (0.1.4-1) unstable; urgency=low
-
-  * New upstream release
-
- -- Uditha Atukorala <udi@geniusse.com>  Fri, 02 Aug 2013 18:46:41 +0100
-
-bitz-server (0.1.1-2) unstable; urgency=low
-
-  * Removing unnecessary OpenSSL dependency
-
- -- Uditha Atukorala <udi@geniusse.com>  Fri, 05 Jul 2013 17:36:10 +0100
-
-bitz-server (0.1.1-1) unstable; urgency=low
-
-  * Initial Release.
-
- -- Uditha Atukorala <udi@geniusse.com>  Fri, 22 Mar 2013 12:00:09 +0000
+ -- Uditha Atukorala <udi@geniusse.com>  Sat, 28 Sep 2013 12:15:34 +0100
